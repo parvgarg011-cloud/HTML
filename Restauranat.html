@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ember Table | Restaurant Menu</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="styleres.css">
+</head>
+<body>
+
+    
+    <header class="navbar">
+        <a href="#" class="logo">
+            <span class="logo-icon">✦</span>
+            <span>
+                <strong>The Ember Table</strong>
+                <small>GOOD FOOD · BETTER MOOD</small>
+            </span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#menu" class="active">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="book-btn">Book a Table ↗</a>
+    </header>
+
+    
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">— OUR MENU —</p>
+            <h1>Fresh Flavors,<br class="mobile-break"> Every Time.</h1>
+            <p class="hero-description">
+                From classic favorites to unique creations, our menu
+                is crafted with fresh ingredients and a passion for great food.
+            </p>
+            <a href="#menu" class="hero-btn">Explore Our Menu ↓</a>
+        </div>
+    </section>
+
+    
+    <main class="menu-section" id="menu">
+
+        <div class="section-heading">
+            <p class="eyebrow">MADE WITH LOVE</p>
+            <h2>Explore Our Menu</h2>
+            <p>Discover something delicious for every craving.</p>
+        </div>
+
+        
+        <div class="categories">
+            <a href="#menu" class="category active-category">All</a>
+            <a href="#starters" class="category">Starters</a>
+            <a href="#main-course" class="category">Main Course</a>
+            <a href="#pizza" class="category">Pizza</a>
+            <a href="#desserts" class="category">Desserts</a>
+            <a href="#beverages" class="category">Beverages</a>
+        </div>
+
+        
+        <h3 class="menu-heading" id="starters">01. Starters & Small Bites</h3>
+
+        <div class="menu-grid">
+
+            <article class="food-card">
+                <div class="food-image">
+                    <img src="images (1).jpg"
+                         alt="Golden garlic bread">
+                    <span class="food-tag">Bestseller</span>
+                </div>
+                <div class="food-info">
+                    <div class="food-title">
+                        <h3>Garlic Bread</h3>
+                        <span class="price">₹149</span>
+                    </div>
+                    <p>Crispy toasted bread with garlic butter, herbs and melted cheese.</p>
+                    <div class="food-bottom">
+                        <span class="veg"><i></i> Vegetarian</span>
+                        <a href="#contact" class="order-btn">Order Now ↗</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card">
+                <div class="food-image">
+                    <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=85"
+                         alt="Fresh tomato soup">
+                </div>
+                <div class="food-info">
+                    <div class="food-title">
+                        <h3>Tomato Basil Soup</h3>
+                        <span class="price">₹129</span>
+                    </div>
+                    <p>A comforting, creamy tomato soup finished with fresh basil.</p>
+                    <div class="food-bottom">
+                        <span class="veg"><i></i> Vegetarian</span>
+                        <a href="#contact" class="order-btn">Order Now ↗</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card">
+                <div class="food-image">
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=85"
+                         alt="Fresh garden salad">
+                </div>
+                <div class="food-info">
+                    <div class="food-title">
+                        <h3>Garden Fresh Salad</h3>
+                        <span class="price">₹179</span>
+                    </div>
+                    <p>Fresh greens, crunchy vegetables, seeds and a light house dressing.</p>
+                    <div class="food-bottom">
+                        <span class="veg"><i></i> Vegetarian</span>
+                        <a href="#contact" class="order-btn">Order Now ↗</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Main Course -->
+        <h3 class="menu-heading" id="main-course">02. Main Course</h3>
+
+        <div class="menu-grid">
+
+            <article class="food-card" id="pizza">
+                <div class="food-image">
+                    <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=800&q=85"
+                         alt="Freshly baked Margherita pizza">
+                    <span class="food-tag">Chef's Pick</span>
+                </div>
+                <div class="food-info">
+                    <div class="food-title">
+                        <h3>Margherita Pizza</h3>
+                        <span class="price">₹299</span>
+                    </div>
+                    <p>Classic pizza with tomato sauce, mozzarella and fragrant basil.</p>
+                    <div class="food-bottom">
+                        <span class="veg"><i></i> Vegetarian</span>
+                        <a href="#contact" class="order-btn">Order Now ↗</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card">
+                <div class="food-image">
+                    <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=85"
+                         alt="Creamy pasta served with herbs">
+                </div>
+                <div class="food-info">
+                    <div class="food-title">
+                        <h3>Creamy White Pasta</h3>
+                        <span class="price">₹249</span>
+                    </div>
+                    <p>Pasta tossed in a rich, creamy sauce with herbs and parmesan.</p>
+                    <div class="food-bottom">
+                        <span class="veg"><i></i> Vegetarian</span>
+                        <a href="#contact" class="order-btn">Order Now ↗</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card">
+                <div class="food-image">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=85"
+                         alt="Juicy grilled chicken burger">
+                </div>
+                <div class="food-info">
+                    <div class="food-title">
+                        <h3>Grilled Chicken Burger</h3>
+                        <span class="price">₹279</span>
+                    </div>
+                    <p>Juicy grilled chicken with lettuce, tomato and our signature sauce.</p>
+                    <div class="food-bottom">
+                        <span class="nonveg"><i></i> Non-vegetarian</span>
+                        <a href="#contact" class="order-btn">Order Now ↗</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Desserts and Beverages -->
+        <h3 class="menu-heading" id="desserts">03. Desserts & Drinks</h3>
+
+        <div class="menu-grid">
+
+            <article class="food-card">
+                <div class="food-image">
+                    <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=85"
+                         alt="Rich chocolate dessert">
+                    <span class="food-tag">Must Try</span>
+                </div>
+                <div class="food-info">
+                    <div class="food-title">
+                        <h3>Chocolate Lava Cake</h3>
+                        <span class="price">₹199</span>
+                    </div>
+                    <p>Warm chocolate cake with a gooey center and vanilla ice cream.</p>
+                    <div class="food-bottom">
+                        <span class="veg"><i></i> Vegetarian</span>
+                        <a href="#contact" class="order-btn">Order Now ↗</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" id="beverages">
+                <div class="food-image">
+                    <img src="Virgin+Mojito.jpg"
+                         alt="Refreshing mint and lime drink">
+                </div>
+                <div class="food-info">
+                    <div class="food-title">
+                        <h3>Virgin Mojito</h3>
+                        <span class="price">₹119</span>
+                    </div>
+                    <p>A refreshing blend of mint, lime, crushed ice and sparkling soda.</p>
+                    <div class="food-bottom">
+                        <span class="veg"><i></i> Non-alcoholic</span>
+                        <a href="#contact" class="order-btn">Order Now ↗</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card">
+                <div class="food-image">
+                    <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=85"
+                         alt="Creamy chocolate milkshake">
+                </div>
+                <div class="food-info">
+                    <div class="food-title">
+                        <h3>Chocolate Shake</h3>
+                        <span class="price">₹159</span>
+                    </div>
+                    <p>A thick, chilled chocolate milkshake topped with creamy goodness.</p>
+                    <div class="food-bottom">
+                        <span class="veg"><i></i> Vegetarian</span>
+                        <a href="#contact" class="order-btn">Order Now ↗</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <p class="menu-note">
+            Prices are in INR. Images are for presentation purposes.
+            Please ask our staff about allergens and dietary requirements.
+        </p>
+
+    </main>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85"
+                 alt="Warmly lit restaurant dining table">
+        </div>
+        <div class="about-text">
+            <p class="eyebrow">OUR STORY</p>
+            <h2>Good Food.<br>Beautiful Moments.</h2>
+            <p>
+                At The Ember Table, we believe every meal should be an experience.
+                We bring together fresh ingredients, comforting flavors and
+                warm hospitality to make every visit memorable.
+            </p>
+            <a href="#contact" class="hero-btn">Come Visit Us ↗</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2>✦ The Ember Table</h2>
+                <p>GOOD FOOD · BETTER MOOD</p>
+                <p class="footer-tagline">Made with love, served with warmth.</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#menu">Our Menu</a>
+                <a href="#about">Our Story</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Visit Us</h3>
+                <p>123 Foodie Lane, Green Park</p>
+                <p>New Delhi, India</p>
+                <p>hello@embertable.example</p>
+                <p>Opening hours: 12 PM – 11 PM</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Book a Table</h3>
+                <p>Good food is better when shared.</p>
+                <a href="mailto:hello@embertable.example"
+                   class="footer-button">Contact Us ↗</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2026 The Ember Table. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
